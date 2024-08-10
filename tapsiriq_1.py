@@ -11,8 +11,9 @@ c=["alma","hello",True,55,"python",44,False]
 c[0]=("salam")
 print(c)
 
-c[6]=(11)
+c[-1]=11
 print(c)
+
 #1
 a[-4:]=("a","b","c","d")
 print(a)

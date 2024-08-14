@@ -19,3 +19,10 @@ list6=["school","class","university","bachelor","book","student"] #listindeki el
 list7=[y for y in list6 if "c" not in y]
 
 print(list7)
+
+x=12
+if x<10:
+    print("x 10 dan kicikdir:",x)
+    
+else:
+    print("x 10dan boyukdu:",x)

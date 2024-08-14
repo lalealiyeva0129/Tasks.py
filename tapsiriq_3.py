@@ -11,11 +11,8 @@ print(list3)
 
 print("Sual3") 
 list4=[2,5,6,10,11,13,16] #listdeki elementlerin 2-ye bolunende qaliqsiz olanlarin bir liste yig
-list5=[]
-for y in list4:
- if y%2==0:
-   list5.append(y)
-   print(list5)
+list5=[x for x in list4 if x%2==0]
+print(list5)
          
 print("Sual4")
 list6=["school","class","university","bachelor","book","student"] #listindeki elementlerde 'c'den istifade olunmayanlari yeni list yaradib ora elave edin

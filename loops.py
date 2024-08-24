@@ -88,3 +88,56 @@ while i<10:
     print(i)
     i=i+2  #1,3
     
+a=0
+b=2
+c=1
+while c<=100:
+    a+=b*c
+    c*=10
+print(a)#222
+
+a=0
+b=3
+while b<0:
+    a=a*10+2
+    b+=1
+print(a)#0
+
+a=0
+b=3
+while b>0:
+    a=a*10+2
+    b-=1
+print(a)#222
+
+a=0
+b=0
+c=100
+while a<3:
+    d=2
+    b+=d*c
+    c//=10
+    a+=1
+print(b)#222
+
+a=0
+while a<3:
+    a+=1
+    if a>=2:
+     continue
+    print("Hello!!")#Hello!! 1ci dongude yazdiracaq
+    
+a=0
+while a<3:
+    a+=1
+    if a!=2:
+        continue
+    print("hello")#hello 2-ci dongude yazdiracaq
+    
+a="python"
+b=""
+c=len(a)-1
+while c>=0:
+    b+=a[c]
+    c-=1
+print(b)

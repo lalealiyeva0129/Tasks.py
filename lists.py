@@ -1,3 +1,8 @@
+#lalealiyeva
+#listindeki 10-dan boyuk elementleri cap et
+#listdeki her elementi ikiye vurub yeni list yaratmaq
+#listdeki elementlerin 2-ye bolunende qaliqsiz olanlarin bir liste yig
+#listindeki elementlerde 'c'den istifade olunmayanlari yeni list yaradib ora elave edin
 print("Sual1")
 list1=[5,22,10,49,58,2,9,100,6,13] #listindeki 10-dan boyuk elementleri cap et
 for i in list1:
@@ -17,12 +22,5 @@ print(list5)
 print("Sual4")
 list6=["school","class","university","bachelor","book","student"] #listindeki elementlerde 'c'den istifade olunmayanlari yeni list yaradib ora elave edin
 list7=[y for y in list6 if "c" not in y]
-
 print(list7)
 
-x=12
-if x<10:
-    print("x 10 dan kicikdir:",x)
-    
-else:
-    print("x 10dan boyukdu:",x)

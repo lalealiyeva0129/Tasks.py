@@ -92,8 +92,8 @@ a=0
 b=2
 c=1
 while c<=100:
+    c=c*10
     a+=b*c
-    c*=10
 print(a)#222
 
 a=0

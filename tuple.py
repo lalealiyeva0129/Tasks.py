@@ -22,20 +22,53 @@ print(tup_1[-1])
 print("task5")
 print((len(tup_1)*2))"""
 
+## thistuple = ("salam" , 42 ,True , "hi") tupllenin sonuna 21 reqemini elave etmek 
+## thistuple = ("salam" , 42 ,True , "hi") tuple-in ortasına alma sozunu elave etmek 
+## thistuple = ("salam" , 42 ,True , "hi") birinci elementi sagol ile deyismek 
+## thistuple = ("salam" , 42 ,True , "hi") True-ni silmek 
+## thistuple = ("salam" , 42 ,True , "hi" , False, 91 , 33 , "alma") tuple-ni ele 3 hisseye bolmek ki ilk hissede daha cox element olsun 
+## thistuple = ("salam" , 42 ,True , "hi") tuple-nin elementlerini ayri ayri cap etmek 
+## thistuple = ("salam" , 42 ,True , "hi") tuplenin elementlerini 4 defe tekrar eletdirmek (tuple icinde)
 
-tuple1=(2,3,4)
-list1=list(tuple1)
-list1.append(8)
-tuple1=tuple(list1)
-print(tuple1)
+print("task1")
+thistuple = ("salam" , 42 ,True , "hi")
+lis=list(thistuple)
+lis.append(21)
+print(tuple(lis))
 
-t=(3,7)
-t1=t*2
-print(t1)
+print("task2")
+thistuple = ("salam" , 42 ,True , "hi")
+list1=list(thistuple)
+list1.insert(2,"alma")
+print(tuple(list1))
 
-t1=(2,4)
-t2=(3,5)
-t3=t1+t2
-print(t3)
+print("task3")
+thistuple = ("salam" , 42 ,True , "hi")
+list2=list(thistuple)
+list2[0]="sagol"
+print(tuple(list2))
 
+print("task4")
+thistuple = ("salam" , 42 ,True , "hi")
+list3=list(thistuple)
+list3.pop(2)
+print(tuple(list3))
 
+print("task5")
+thistuple = ("salam" , 42 ,True ,"hi",False,91,33,"alma")
+(*a,b,c)=thistuple
+print(a)
+print(b)
+print(c)
+
+print("task6")
+thistuple = ("salam" , 42 ,True , "hi")
+(a,b,c,d)=thistuple
+print(a)
+print(b)
+print(c)
+print(d)
+
+print("task7")
+thistuple = ("salam" , 42 ,True , "hi")
+print(thistuple*4)

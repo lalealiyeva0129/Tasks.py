@@ -90,11 +90,69 @@ for i in range(25,50):
     
 print("task12")
 #Fibonacci seriyasını 10 terminə qədər göstərin:0 1 1 2 3 5 8 13 21 34
-x=0
-y=1
-for i in range(5,-1):
-    n=i*(i+1) 
-print(n)
+num1, num2 = 0, 1
+print("Fibonacci ardicilligi:")
+for i in range(10):
+    print(num1, end="  ")
+    n = num1 + num2
+    num1 = num2
+    num2 = n
+    
+print("\n")
+print("task13")
+# Verilmiş ədədin faktorialını tapın
+n=int(input("ededi daxil edin:"))
+factorial=1
+for i in range(1,n+1):
+    factorial=factorial*i
+print(factorial)
 
+"""   
+print("task14")
+#Tam ədədi tərsinə çevirin. Verildi :76542 Gözlənilən nəticə:24567
+n=int(input("ededi daxil edin:"))
+for i in n:
+    print(i)"""
 
+    
+print("task15")
+#Tək indeks mövqelərində mövcud olan verilmiş siyahıdan elementləri çap edin
+my_list=[10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+for i in my_list[1::2]:
+   print(i)   
+    
+print("\n") 
+print("task16")
+#1-dən verilmiş ədədə qədər bütün ədədlərin kubunu çap etmək üçün Python proqramı yazın.
+n=int(input("Daxil edilen eded:"))
+for i in range(1,n+1):
+    x=i*i*i
+    print("Yeni eded:",i,"Yeni ededin kubu ise:",x)
+    
+print("task17")
+#N həddə qədər sıraların cəmini hesablamaq üçün proqram yazın. Məsələn n = 5 serial halına gələcək2 + 22 + 222 + 2222 + 22222 = 24690
+s=0
+for i  in range(1, 5):
+    s+=int('2'*i)
+print(s)
 
+print("task18")
+#*
+#* *
+#* * *
+#* * * *
+#* * * * *
+#* * * *
+#* * *
+#* *
+#*
+for i in range(6):
+    for j in range(i):
+        print("*",end=" ")
+    print("")
+    
+for i in range(4,0,-1):
+    for j in range(i):
+        print("*",end=" ")
+    print(" ")
+ 

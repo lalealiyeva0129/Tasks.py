@@ -30,7 +30,7 @@ print((len(tup_1)*2))"""
 ## thistuple = ("salam" , 42 ,True , "hi") tuple-nin elementlerini ayri ayri cap etmek 
 ## thistuple = ("salam" , 42 ,True , "hi") tuplenin elementlerini 4 defe tekrar eletdirmek (tuple icinde)
 
-print("task1")
+"""print("task1")
 thistuple = ("salam" , 42 ,True , "hi")
 lis=list(thistuple)
 lis.append(21)
@@ -72,3 +72,4 @@ print(d)
 print("task7")
 thistuple = ("salam" , 42 ,True , "hi")
 print(thistuple*4)
+"""

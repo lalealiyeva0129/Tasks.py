@@ -62,3 +62,5 @@ print(symmetric_difference_set)  #{'apple', 'cherry', 'date', 'fig'}
 # ^ operator
 symmetric_difference_set = set2 ^ set1
 print(symmetric_difference_set)  #{'apple', 'cherry', 'date', 'fig'}
+
+

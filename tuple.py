@@ -1,4 +1,4 @@
-"""## List ve Tuple arasindaki ferqleri yazmaq 
+## List ve Tuple arasindaki ferqleri yazmaq 
 ## tup_1 = ("alma" , 4 , True , 32 , "salam" , 0) tupleinda almadan 32 e qeder elementleri cap etmek 
 ## tup_1 = ("alma" , 4 , True , 32 , "salam" , 0) tupleinda sondan 3 elementi cap etmek 
 ## tup_1 = ("alma" , 4 , True , 32 , "salam" , 0) tupleinda sonuncu elementi cap etmek 
@@ -20,7 +20,7 @@ print("task4")
 print(tup_1[-1])
 
 print("task5")
-print((len(tup_1)*2))"""
+print((len(tup_1)*2))
 
 ## thistuple = ("salam" , 42 ,True , "hi") tupllenin sonuna 21 reqemini elave etmek 
 ## thistuple = ("salam" , 42 ,True , "hi") tuple-in ortasına alma sozunu elave etmek 
@@ -30,7 +30,7 @@ print((len(tup_1)*2))"""
 ## thistuple = ("salam" , 42 ,True , "hi") tuple-nin elementlerini ayri ayri cap etmek 
 ## thistuple = ("salam" , 42 ,True , "hi") tuplenin elementlerini 4 defe tekrar eletdirmek (tuple icinde)
 
-"""print("task1")
+print("task1")
 thistuple = ("salam" , 42 ,True , "hi")
 lis=list(thistuple)
 lis.append(21)
@@ -72,4 +72,4 @@ print(d)
 print("task7")
 thistuple = ("salam" , 42 ,True , "hi")
 print(thistuple*4)
-"""
+

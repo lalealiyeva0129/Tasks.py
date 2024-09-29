@@ -73,3 +73,11 @@ print("task7")
 thistuple = ("salam" , 42 ,True , "hi")
 print(thistuple*4)
 
+if a>5:
+      print("daxil edilen reqem 5den boyukdir.")
+elif a<5:
+      print("daxil etdiyiniz eded 5den kicikdir")
+elif a<7:
+      print("daxil etdiyiniz reqem 7 den kicikdi")
+elif a>7:
+      print("daxil edilen reqem 7 den boyukdu")
